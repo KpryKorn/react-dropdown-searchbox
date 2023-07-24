@@ -14,6 +14,7 @@ textarea,
 button {
   line-height: 1;
   width: 100%;
+  font: inherit;
 }
 img {
   width: 25px;
@@ -34,7 +35,7 @@ img {
   gap: 0.25rem;
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--clr-accent);
+  border: 1px solid #e0e0e0;
 }
 .searchbar input {
   outline: 0;
@@ -49,7 +50,7 @@ img {
   border-radius: 0.5rem;
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--clr-accent);
+  border: 1px solid #e0e0e0;
   position: relative;
 }
 .dropdown[data-open="true"] {
